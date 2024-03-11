@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-items-filter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItemsFilter/ListItemsFilterWebPart.js",
+          "manifest": "./src/webparts/listItemsFilter/ListItemsFilterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListItemsFilterWebPartStrings": "lib/webparts/listItemsFilter/loc/{locale}.js"
+  }
+}
